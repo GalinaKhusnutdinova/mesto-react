@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.75368b85.css",
-    "main.js": "/static/js/main.f6c44a21.js",
-    "static/js/787.5530211c.chunk.js": "/static/js/787.5530211c.chunk.js",
-    "static/media/Inter-Medium.woff?v=3.19": "/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
-    "static/media/Inter-Black.woff?v=3.19": "/static/media/Inter-Black.c6938660eec019fefd68.woff",
-    "static/media/Inter-Regular.woff?v=3.19": "/static/media/Inter-Regular.8c206db99195777c6769.woff",
-    "static/media/Inter-Medium.woff2?v=3.19": "/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
-    "static/media/Inter-Black.woff2?v=3.19": "/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
-    "static/media/Inter-Regular.woff2?v=3.19": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "static/media/сердце.svg": "/static/media/сердце.87ed371465c7a6a1cd01.svg",
-    "index.html": "/index.html",
-    "static/media/delete.svg": "/static/media/delete.823b0cf1b0b7e9cb7cad.svg",
-    "static/media/like-black.svg": "/static/media/like-black.fe17a515669479b1e649.svg",
-    "static/media/Vector-edit.svg": "/static/media/Vector-edit.8667ac4a523e8fc42e59641845fc8448.svg",
-    "static/media/Close-Icon.svg": "/static/media/Close-Icon.2ceb783afbab75916ddcbb98f868ff01.svg",
-    "static/media/Vector-add.svg": "/static/media/Vector-add.d86bb2edc2f6eadb96b7.svg",
-    "main.75368b85.css.map": "/static/css/main.75368b85.css.map",
-    "main.f6c44a21.js.map": "/static/js/main.f6c44a21.js.map",
-    "787.5530211c.chunk.js.map": "/static/js/787.5530211c.chunk.js.map"
+    "main.css": "/relativepath/static/css/main.7a2ce05c.css",
+    "main.js": "/relativepath/static/js/main.02ecd7a3.js",
+    "static/js/787.5530211c.chunk.js": "/relativepath/static/js/787.5530211c.chunk.js",
+    "static/media/Inter-Medium.woff?v=3.19": "/relativepath/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff?v=3.19": "/relativepath/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/relativepath/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2?v=3.19": "/relativepath/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2?v=3.19": "/relativepath/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2?v=3.19": "/relativepath/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/сердце.svg": "/relativepath/static/media/сердце.87ed371465c7a6a1cd01.svg",
+    "index.html": "/relativepath/index.html",
+    "static/media/delete.svg": "/relativepath/static/media/delete.823b0cf1b0b7e9cb7cad.svg",
+    "static/media/like-black.svg": "/relativepath/static/media/like-black.fe17a515669479b1e649.svg",
+    "static/media/Vector-edit.svg": "/relativepath/static/media/Vector-edit.8667ac4a523e8fc42e59641845fc8448.svg",
+    "static/media/Close-Icon.svg": "/relativepath/static/media/Close-Icon.2ceb783afbab75916ddcbb98f868ff01.svg",
+    "static/media/Vector-add.svg": "/relativepath/static/media/Vector-add.d86bb2edc2f6eadb96b7.svg",
+    "main.7a2ce05c.css.map": "/relativepath/static/css/main.7a2ce05c.css.map",
+    "main.02ecd7a3.js.map": "/relativepath/static/js/main.02ecd7a3.js.map",
+    "787.5530211c.chunk.js.map": "/relativepath/static/js/787.5530211c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75368b85.css",
-    "static/js/main.f6c44a21.js"
+    "static/css/main.7a2ce05c.css",
+    "static/js/main.02ecd7a3.js"
   ]
 }

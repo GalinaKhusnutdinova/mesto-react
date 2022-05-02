@@ -1,11 +1,3 @@
-export const config = {
-  formSelector: ".popup__form",
-  inputSelector: ".popup__item",
-  submitButtonSelector: ".popup__save-button",
-  inactiveButtonClass: "popup__save-button_inactive",
-  inputErrorClass: "popup__message_active",
-  errorClass: "popup__item_error",
-};
 export const avatarButton = document.querySelector(".profile__photo");
 export const profileEditButton = document.querySelector(
   ".profile__edit-button"

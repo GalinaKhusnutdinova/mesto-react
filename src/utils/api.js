@@ -2,26 +2,26 @@ class Api {
   constructor(settings) {
     this._settings = settings;
   }
-
+  //qq
   getProfile() {
     return fetch(this._settings.baseUrl + "/users/me", {
       headers: this._settings.headers,
     }).then(this._checkResponse);
   }
-
+  //qq
   getInitialCards() {
     return fetch(this._settings.baseUrl + "/cards", {
       headers: this._settings.headers,
     }).then(this._checkResponse);
   }
-
-  editProfile(name, about) {
+  //qq
+  editProfile(data) {
     return fetch(this._settings.baseUrl + "/users/me", {
       method: "PATCH",
       headers: this._settings.headers,
       body: JSON.stringify({
-        name,
-        about,
+        name: data.name,
+        about: data.about,
       }),
     }).then(this._checkResponse);
   }
@@ -36,33 +36,34 @@ class Api {
       }),
     }).then(this._checkResponse);
   }
-
+  //qq
   deleteCard(id) {
     return fetch(this._settings.baseUrl + "/cards/" + id, {
       method: "DELETE",
       headers: this._settings.headers,
     }).then(this._checkResponse);
   }
-
+  //qq
   deleteLike(id) {
     return fetch(this._settings.baseUrl + "/cards/" + id + "/likes", {
       method: "DELETE",
       headers: this._settings.headers,
     }).then(this._checkResponse);
   }
+  //qq
   addLike(id) {
     return fetch(this._settings.baseUrl + "/cards/" + id + "/likes", {
       method: "PUT",
       headers: this._settings.headers,
     }).then(this._checkResponse);
   }
-
-  editAvatarProfile(link) {
+  //qq
+  editAvatarProfile(data) {
     return fetch(this._settings.baseUrl + "/users/me/avatar", {
       method: "PATCH",
       headers: this._settings.headers,
       body: JSON.stringify({
-        avatar: link,
+        avatar: data.avatar,
       }),
     }).then(this._checkResponse);
   }

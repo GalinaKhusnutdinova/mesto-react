@@ -44,6 +44,7 @@
 @import url(./blocks/popup/_type/popup_type_add-photo.css);
 @import url(./blocks/popup/_type/popup_type_loock-photo.css);
 @import url(./blocks/popup/__delete-button/popup__delete-button.css);
+@import url(./blocks/popup/__delete-button/_hidden/popup__delete-button_hidden.css);
 @import url(./blocks/popup/__figure/popup__figure.css);
 @import url(./blocks/popup/__figcaption/popup__figcaption.css);
 @import url(./blocks/popup/__image/popup__image-loock-photo.css);

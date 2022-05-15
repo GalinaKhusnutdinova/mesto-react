@@ -1,4 +1,4 @@
-import { useRef, useContext, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import PopupWithForm from "./PopupWithForm";
 
 function EditAvatarPopup(props) {

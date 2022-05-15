@@ -1,18 +1,7 @@
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import PopupWithForm from "./PopupWithForm";
-import { CurrentAddPlaceContext } from "../contexts/CurrentAddPlaceContext.js";
 
 export default function AddPlacePopup(props) {
-  // Подписка на контекст
-  const currentAddPlace = useContext(CurrentAddPlaceContext);
-
-  // После загрузки текущего пользователя из API
-  // его данные будут использованы в управляемых компонентах.
-  useEffect(() => {
-    setNameCard(currentAddPlace.name);
-    setLink(currentAddPlace.link);
-  }, [currentAddPlace]);
-
   const [nameCard, setNameCard] = useState("");
   const [link, setLink] = useState(" ");
 
@@ -33,6 +22,16 @@ export default function AddPlacePopup(props) {
       link,
     });
   }
+
+  // После загрузки текущего пользователя из API
+  // его данные будут использованы в управляемых компонентах.
+  useEffect(() => {
+    if (props.isOpen) {
+      setNameCard("");
+      setLink("");
+    }
+  }, [props.isOpen]);
+
   return (
     <PopupWithForm
       onClose={props.onClose}

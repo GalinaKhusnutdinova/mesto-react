@@ -12,7 +12,7 @@ function Main({
   onCardLike,
   onCardDelete,
 }) {
-  let currentUser = useContext(CurrentUserContext);
+  const currentUser = useContext(CurrentUserContext);
 
   return (
     <main className="content">
